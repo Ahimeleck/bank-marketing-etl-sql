@@ -36,29 +36,29 @@ The original dataset contained information about:
 **What is the average age of clients who responded positively to campaigns (`campaign_outcome = TRUE`)?**  
  Result: **~41 years**
 
-![avg_age](bank-marketing-etl\screenshots\avg_age.png)
+![avg_age](bank-marketing-etl/screenshots/avg_age.png)
 
 
 ### 🔹 Question 2 — Subquery
 **What percentage of clients had more contacts than the global average?**  
  Result: **12,976 clients above average out of 41,188 (~31.5%)**
 
-![above_avg](bank-marketing-etl\screenshots\above_avg.png)
-![total_clients](bank-marketing-etl\screenshots\total_clients.png)
-![pct_above_avg](bank-marketing-etl\screenshots\pct_above_avg.png)
+![above_avg](bank-marketing-etl/screenshots/above_avg.png)
+![total_clients](bank-marketing-etl/screenshots/total_clients.png)
+![pct_above_avg](bank-marketing-etl/screenshots/pct_above_avg.png)
 
 
 ### 🔹 Question 3 — Window Function
 **How are clients ranked by the total duration of their contacts?**  
  Result: Ranking of clients by intensity of contact.
 
-![rank](bank-marketing-etl\screenshots\rank.png)
+![rank](bank-marketing-etl/screenshots/rank.png)
 
 ### 🔹 Question 4 — JOIN + Window Function + Economics
 **How many successful campaigns did each client have, and how does this compare to the global average? What economic indicators were associated?**  
  Result: Clients with their number of successful campaigns vs. global average, plus `cons_price_idx` and `euribor_three_months`.
 
-![indicators](bank-marketing-etl\screenshots\indicators.png)
+![indicators](bank-marketing-etl/screenshots/indicators.png)
 
 ## Conclusion
 This project demonstrates core **Data Engineering skills**:
